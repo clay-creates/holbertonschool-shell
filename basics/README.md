@@ -1,0 +1,3 @@
+This directory contains scripts for each project.
+
+0 - Script Printing Current Working Directory
