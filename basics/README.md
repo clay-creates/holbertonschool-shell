@@ -12,6 +12,10 @@ This directory contains scripts for each project.
 
 5 - Script Displaying Working Directory Files in Long Format, with Hidden, plus User/Group ID's in Alphabetical Order
 
-6 - Script Moving File in /tmp to directory /tmp/my_first_directory
+6 - Script Creating Directory my_first_directory in /tmp
 
-7 - 
+7 - Script Moving File in /tmp to directory /tmp/my_first_directory
+
+8 - Script to Remove File betty in /tmp/my_first_directory
+
+9 - 
