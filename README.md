@@ -1,2 +1,3 @@
-# holbertonschool-shell
-Repository for Shell Projects
+Repository for Shell Projects at Holberton School
+
+Project 5 and Project 6
