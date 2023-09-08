@@ -4,3 +4,7 @@ This directory contains scripts for each project.
 
 1 - Script Displaying Contents of Current Working Directory
 
+2 - Script Changing Working Directory to Root
+
+3 - Script Displaying Working Directory in Long Format
+
