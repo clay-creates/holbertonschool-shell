@@ -10,4 +10,6 @@ This directory contains scripts for each project.
 
 4 - Script Displaying Working Directory Hidden Files
 
-5 - 
+5 - Script Displaying Working Directory Files in Long Format, with Hidden, plus User/Group ID's in Alphabetical Order
+
+6 - 
