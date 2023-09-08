@@ -8,3 +8,6 @@ This directory contains scripts for each project.
 
 3 - Script Displaying Working Directory in Long Format
 
+4 - Script Displaying Working Directory Hidden Files
+
+5 - 
