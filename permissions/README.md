@@ -1,1 +1,1 @@
-This is a directory containing all the scripts for the Permissions Project
+This is a directory containing all the scripts for the Permissions Project.
