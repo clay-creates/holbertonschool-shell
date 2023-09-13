@@ -1,0 +1,9 @@
+#!/bin/bash
+
+script="$0"
+file="$1"
+num="$2"
+
+echo "Running"+="$script"
+
+head -n $num $file
