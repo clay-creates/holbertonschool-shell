@@ -1,2 +1,2 @@
 #!/bin/bash
-echo '$1' | rev
+read user_input | echo $user_input | rev
