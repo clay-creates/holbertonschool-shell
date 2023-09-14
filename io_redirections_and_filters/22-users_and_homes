@@ -1,2 +1,2 @@
 #!/bin/bash
-grep username /etc/passwd
+getent passwd | grep username
