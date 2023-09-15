@@ -1,2 +1,2 @@
 #!/bin/bash
-grep username /etc/passwd|cut -d: -f 6
+cat /etc/passwd | grep username | cut -d: -f 6
