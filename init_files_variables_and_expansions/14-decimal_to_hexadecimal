@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((10#$DECIMAL)) | cat
+echo $((16#$DECIMAL)) | cat
