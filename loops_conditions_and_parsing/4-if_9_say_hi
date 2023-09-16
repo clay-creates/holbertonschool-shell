@@ -3,12 +3,14 @@
 i=1
 target=10
 
-while [ $i -lt $target ];
+while [ $i -le $target ];
 do
 	echo "Best School"
 	((i++))
 	
-      if [ i=9 ]
-	echo "Best School\n Hi"
+      if [ $i -eq 9 ];
+	 echo "Best School"
+	 echo "Hi"
 	((i++))
+      fi
 done
