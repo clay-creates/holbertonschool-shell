@@ -7,10 +7,11 @@ while [ $i -le $target ];
 do
 	echo "Best School"
 	((i++))
-	
-      if [ $i -eq 9 ];
-	 echo "Best School"
-	 echo "Hi"
-	((i++))
-      fi
-done
+
+	if [ $i -eq 9 ];
+	then
+    echo "Best School"
+    echo "Hi"
+    ((i++))
+fi
+    done
