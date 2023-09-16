@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
 #For loop listing current directory contents in long form, only showing part of file name
 
-for file in *; do
+for file in *;
+do
 	    ls -l
-	    if [[ "$file" == *-* ]];
+	    if [[ "$file" == ?-* ]];
+	    then
 	       filename="${file#*-}"
 	       echo "$filename"
-	       else
-do
-    
+	    else
+            then
 		   echo "$file"
 	    fi
 done
