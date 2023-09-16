@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+#While loop displaying 59 mins, followed by 12 hours
+
+hour=0
+hour_target=12
+
+min=1
+min_target=59
+
+echo "Hour:" $hour
+((hour=hour+1))
+
+while [ $min -le $min_target ];
+do
+    echo $min
+    ((min=min+1))
+    if [ $min -gt $min_target ];
+    then
+	echo "Hour:" $hour
+    fi
+done
+while [ $hour -le $hour_target ];
+do
+    echo $hour
+    ((hour=hour+1))
+done
