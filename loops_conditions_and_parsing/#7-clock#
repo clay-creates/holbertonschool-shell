@@ -19,7 +19,7 @@ do
 	echo "Hour:" $hour
 	((hour=hour+1))
 	((min=1))
-    elif [ $hour -gt $hour_target ];
+    elif [ $hour -gt $hour_target && ];
     then
 	exit
     fi
