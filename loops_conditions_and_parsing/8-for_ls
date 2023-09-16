@@ -6,9 +6,9 @@ do
     
 	    if [[ $file == *-* ]];
 	    then
-		echo "${file#?-*}"
+		echo "${file#*-}"
 	    else
-		echo $file
+		echo "$file"
 	    fi
 	    
 done
