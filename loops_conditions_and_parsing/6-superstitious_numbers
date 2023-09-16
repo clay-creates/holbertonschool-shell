@@ -8,16 +8,26 @@ while [ $i -le $target ];
 do
     echo $i
     ((i++))
+    if [[ $i -eq 4 || $i -eq 9 || $i -eq 17 ]];
+    then
+	:
+	fi
 
     case $i in
 	4)
+	    echo $i
 	    echo "bad luck from China"
+	    ((i++))
 	    ;;
 	9)
+	    echo $i
 	    echo "bad luck from Japan"
+	    ((i++))
 	    ;;
 	17)
+	    echo $i
 	    echo "bad luck from Italy"
+	    ((i++))
 	    ;;
     esac
     done
