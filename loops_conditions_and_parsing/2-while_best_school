@@ -7,6 +7,6 @@ while [ $i -le $target ];
 do
     export i=1
     echo "Best School"
-    i='expre $i + 1'
+    i="expre $i + 1"
 done
 
