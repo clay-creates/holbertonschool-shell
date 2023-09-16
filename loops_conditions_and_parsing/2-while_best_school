@@ -7,6 +7,6 @@ while [ $i -le $target ];
 do
     export i=1
     echo "Best School"
-    ((i=$i+1))
+    ((i=i+1))
 done
 
