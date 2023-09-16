@@ -5,7 +5,7 @@ hour=0
 hour_target=12
 
 min=1
-min_target=59
+min_target=60
 
 echo "Hour:" $hour
 ((hour=hour+1))
@@ -19,7 +19,7 @@ do
 	echo "Hour:" $hour
 	((hour=hour+1))
 	((min=1))
-    elif [ $hour -gt $hour_target ];
+    elif [[ $hour -gt $hour_target && $min -ge $min_target ]];
     then
 	exit
     fi
