@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 #set base variable
 i=1
-target=11
+target=10
 
-while [ $i -lt $target ];
+while [ $i -le $target ];
 do
     export i=1
     echo "Best School"
-    ((i++))
+    ((i=i+1))
 done
 
