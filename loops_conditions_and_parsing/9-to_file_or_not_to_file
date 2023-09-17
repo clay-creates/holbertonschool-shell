@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#For loop checking for existence of 'school' file
+
+FILE="school"
+
+if [[ -f "$FILE" ]]; then
+    echo "$FILE" file exists
+else
+    echo "$FILE" file does not exist
+    if [[ -s "$FILE" ]]; then
+	echo "$FILE" file is not empty
+    else
+	echo "$FILE" file is empty
+	if [[ -f $"FILE" ]]; then
+	    echo "$FILE" is a regular file
+	fi
+    fi
+fi
+done

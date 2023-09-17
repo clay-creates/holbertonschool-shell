@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#For loop checking for existence of 'school' file
+
+FILE=school
+
