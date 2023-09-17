@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 #Execute read on file, then while loop to read line by line
 
-exec {file_descriptor}<"/etc/passwd"
-declare -a input_array
-while read -a input_array -u $file_descriptor
+input="/etc/passwd"
+
+while read -r line
 do
-    echo "$input_array" | cut -d: -f1,3,6
-done
-exec {file_descriptor}>&-
+    echo "$line" | cut -d: -f1,3,6
+done < "$input"
