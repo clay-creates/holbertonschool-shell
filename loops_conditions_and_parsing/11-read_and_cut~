@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-#Execute read on file, then while loop to read line by line
-
-exec <"/etc/passwd"
