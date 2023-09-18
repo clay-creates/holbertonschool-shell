@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 #Tell the story of /etc/passwd
 
-FILE="/etc/passwd"
-
-while IFS=: read -r f1 f2 f3 f4 f5 f6 f7
+while IFS=: read -r line USERNAME PASSWORD USER_ID GROUP_ID USER_ID_INFO HOME_DIRECTORY COMMAND
 do
-    echo "The user $f1 is a part of the $f4 gang, lives in $f6 and rides $f7. $f3's placeis protected by the passcode $f2, more info about the user here: $f5"
-done < "$FILE"
+    echo "The user $USERNAME is a part of the GROUP_ID4 gang, lives in $HOME_DIRECTORY and rides $COMMAND. $USER_ID's placeis protected by the passcode $PASSWORD, more info about the user here: $USER_ID_INFO"
+done < /etc/passwd
